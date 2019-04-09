@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="CPPWorkspace" Database="" Version="10.0.0">
+  <Project Name="Test1" Path="Test1/Test1.project" Active="No"/>
+  <Project Name="Sample" Path="Sample/Sample.project" Active="No"/>
+  <Project Name="dummycpp" Path="dummycpp/dummycpp.project" Active="No"/>
+  <Project Name="FirstProject" Path="FirstProject/FirstProject.project" Active="No"/>
+  <Project Name="BasicIO" Path="BasicIO/BasicIO.project" Active="No"/>
+  <Project Name="InitializeVars" Path="InitializeVars/InitializeVars.project" Active="Yes"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Environment/>
+      <Project Name="Test1" ConfigName="Debug"/>
+      <Project Name="Sample" ConfigName="Debug"/>
+      <Project Name="dummycpp" ConfigName="Debug"/>
+      <Project Name="FirstProject" ConfigName="Debug"/>
+      <Project Name="BasicIO" ConfigName="Debug"/>
+      <Project Name="InitializeVars" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Environment/>
+      <Project Name="Test1" ConfigName="Release"/>
+      <Project Name="Sample" ConfigName="Release"/>
+      <Project Name="dummycpp" ConfigName="Release"/>
+      <Project Name="FirstProject" ConfigName="Release"/>
+      <Project Name="BasicIO" ConfigName="Release"/>
+      <Project Name="InitializeVars" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>
