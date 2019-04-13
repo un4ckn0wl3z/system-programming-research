@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ PrimitiveTypes - Debug ]----------"
-	@cd "PrimitiveTypes" && "$(MAKE)" -f  "PrimitiveTypes.mk"
+	@echo "----------Building project:[ Constants - Debug ]----------"
+	@cd "Constants" && "$(MAKE)" -f  "Constants.mk"
 clean:
-	@echo "----------Cleaning project:[ PrimitiveTypes - Debug ]----------"
-	@cd "PrimitiveTypes" && "$(MAKE)" -f  "PrimitiveTypes.mk" clean
+	@echo "----------Cleaning project:[ Constants - Debug ]----------"
+	@cd "Constants" && "$(MAKE)" -f  "Constants.mk" clean

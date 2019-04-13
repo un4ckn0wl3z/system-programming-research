@@ -6,7 +6,9 @@
   <Project Name="FirstProject" Path="FirstProject/FirstProject.project" Active="No"/>
   <Project Name="BasicIO" Path="BasicIO/BasicIO.project" Active="No"/>
   <Project Name="InitializeVars" Path="InitializeVars/InitializeVars.project" Active="No"/>
-  <Project Name="PrimitiveTypes" Path="PrimitiveTypes/PrimitiveTypes.project" Active="Yes"/>
+  <Project Name="PrimitiveTypes" Path="PrimitiveTypes/PrimitiveTypes.project" Active="No"/>
+  <Project Name="SizeofOperator" Path="SizeofOperator/SizeofOperator.project" Active="No"/>
+  <Project Name="Constants" Path="Constants/Constants.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -17,6 +19,8 @@
       <Project Name="BasicIO" ConfigName="Debug"/>
       <Project Name="InitializeVars" ConfigName="Debug"/>
       <Project Name="PrimitiveTypes" ConfigName="Debug"/>
+      <Project Name="SizeofOperator" ConfigName="Debug"/>
+      <Project Name="Constants" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -27,6 +31,8 @@
       <Project Name="BasicIO" ConfigName="Release"/>
       <Project Name="InitializeVars" ConfigName="Release"/>
       <Project Name="PrimitiveTypes" ConfigName="Release"/>
+      <Project Name="SizeofOperator" ConfigName="Release"/>
+      <Project Name="Constants" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
