@@ -1,0 +1,5 @@
+﻿  Main.cpp
+c:\users\anuwat\documents\visual studio 2017\projects\systemhelloworl\systemhelloworl\main.cpp(10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\anuwat\documents\visual studio 2017\projects\systemhelloworl\systemhelloworl\main.cpp(10): error C2143: syntax error: missing ',' before '&'
+c:\users\anuwat\documents\visual studio 2017\projects\systemhelloworl\systemhelloworl\main.cpp(27): error C2664: 'void PrintEntity(const int)': cannot convert argument 1 from 'Entity' to 'const int'
+  c:\users\anuwat\documents\visual studio 2017\projects\systemhelloworl\systemhelloworl\main.cpp(27): note: No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
