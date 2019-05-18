@@ -1,0 +1,31 @@
+﻿  Main.cpp
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xmemory0(881): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\vector(900): note: see reference to function template instantiation 'void std::_Default_allocator_traits<_Alloc>::construct<_Ty,int,int,int>(_Alloc &,_Objty *const ,int &&,int &&,int &&)' being compiled
+          with
+          [
+              _Alloc=std::allocator<Vertex>,
+              _Ty=Vertex,
+              _Objty=Vertex
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\vector(902): note: see reference to function template instantiation 'void std::_Default_allocator_traits<_Alloc>::construct<_Ty,int,int,int>(_Alloc &,_Objty *const ,int &&,int &&,int &&)' being compiled
+          with
+          [
+              _Alloc=std::allocator<Vertex>,
+              _Ty=Vertex,
+              _Objty=Vertex
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\vector(916): note: see reference to function template instantiation 'void std::vector<Vertex,std::allocator<_Ty>>::_Emplace_back_with_unused_capacity<int,int,int>(int &&,int &&,int &&)' being compiled
+          with
+          [
+              _Ty=Vertex
+          ]
+  c:\users\anuwat\documents\visual studio 2017\projects\systemhelloworl\systemhelloworl\main.cpp(35): note: see reference to function template instantiation 'void std::vector<Vertex,std::allocator<_Ty>>::emplace_back<int,int,int>(int &&,int &&,int &&)' being compiled
+          with
+          [
+              _Ty=Vertex
+          ]
+  SystemHelloWorl.vcxproj -> C:\Users\anuwat\documents\visual studio 2017\Projects\SystemHelloWorl\Debug\SystemHelloWorl.exe
