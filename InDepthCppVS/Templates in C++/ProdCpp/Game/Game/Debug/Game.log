@@ -1,0 +1,7 @@
+﻿  Application.cpp
+c:\users\anuwat\documents\prodcpp\game\game\src\application.cpp(28): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+  Game.vcxproj -> C:\Users\anuwat\Documents\ProdCpp\Game\Debug\Game.exe
