@@ -197,3 +197,35 @@ ___
 |.ps1 .psm1 .ps1xml |Powershell |COM + OOP + .NET + Interactive |Powershell Script
 |.reg |regedit.exe| - |Windows registry script. Modify Windows registry when executed.
 
+---
+### WinAPI C Data Types
+#### Hungarian Notation
+อย่างที่เกริ่นไปตอนแรกว่า WinApi นั้นใช้รูปแบบ *Hungarian Notation* สำหรับการตั้งชื่อตัวแปร
+คือการใช้ตัวบย่อของ type ตามด้วย ชื่อของตัวแปร
+**Form:**
+
+    TYPE-PREFIX + NAME + QUALIFIER
+
+| Prefix | Type | Description | Variable Name Example
+| ------ | ----------- |-----|---
+| b | BYTE or BOOL |boolean|BOOL bFlag; BOOL bIsOnFocus
+| c | char |Character - 1 byte|char cLetter
+| w | WORD |word|-
+| dw | DWORD |double word|-
+| i| int|integer|int iNumberOfNodes
+| u32| unsigned [int]|unsigned integer|unsigned u32Nodes
+| f or fp| float|float point - single precision|fInterestRate
+| d| double|float point - double precision|dRateOfReturn
+| n| -|short int|-
+| sz| char* or const char*|Pointer to null terminated char array.|char* szButtonLabel
+| H| HANDLE|Handle|HANDLE hModule; HMODULE hInstance;
+| p| -|Pointer|double* pdwMyPointer;
+| lp| -|Long Pointer|int* lpiPointer;
+| fn| -|Function pointer|int* lpiPointer;
+| lpsz| -|Long Pointer|-
+| LP| -|Long Pointer|-
+| I| -|Interface (C++ interface class)|class IDrawable …
+| S| -|Struct declaration|struct SContext { … }
+| C| -|Class declaration|class CUserData{ … }
+| m_| -|Private member variable name of some class|m_pszFileName
+| s_| -|Static member of a class|static int s_iObjectCount
