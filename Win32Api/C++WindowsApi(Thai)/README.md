@@ -101,3 +101,42 @@ Winsock2.h**
 **conio.h**
 
 -   Console Input/Output functions - it is heritage grom MSDOS.
+
+### Windows API Runtime Libraries
+
+**kernel32.dll**
+
+-   Low level NTDLL wrappers.
+
+**user32.dll**
+
+-   User interface primitives used by graphical programs with menus, toolboxes, prompts, windows ..
+
+**shell.dll**
+
+**gdi32.dll**
+
+-   Basic drawing primitives.
+
+**ole32.dll**
+**MSVCRT.DLL**
+
+-   Implementation of the C standard library stdlib.
+
+**advapi.dll**
+
+-   Contains functions for system-related tasks such as registry and registry handling.
+
+**WS_32.DLL**
+
+-   Winsock2 library contains a socket implementation.
+
+**Ntdll.dll**
+
+-   Interface to Kernel. Not used by Windows programs directly.
+
+**Wininet.dll**
+
+-   Provides high level network APIs, for instance, HttpOpenRequest, FtpGetFile …
+
+
