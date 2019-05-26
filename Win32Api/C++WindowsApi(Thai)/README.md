@@ -35,4 +35,69 @@ Windows API ก็คือ พวก low-level function ต่างๆขอ�
 - string จะมี type แยกย่อยเยอะมากๆ
 - มี C-runtimes และ entry points ที่ต่างกันหลายตัว
 - Function ของ Windows api นั้น มี parameter เยอะมาก บางทีจะ สับสนได้ วิธีเดียวที่จะรู้ว่ามันทำงานยังไงคือต้องลอง compile แล้วดู
-- บาง Function ไม่มีแม้แต่ document -.-
+- บาง Function ไม่มีแม้แต่ document -.-4
+
+### Windows API Main Header Files
+header ที่ต้องเรียกใช้เมื่อต้องการ call Windows api
+-   #include <windows.h>
+-   #include <wchar.h> - Wide Characters - UTF16 chars
+-   #include <tchar.h>
+-   #include <global.h>
+-   #include <nsfbd.h>
+
+***Details (รายละเอียดอื่นๆ)***
+
+**windows.h**
+-   Basic header file of Windows API
+
+**WinError.h**
+
+-   Error codes and strings
+
+**tchar.h**
+
+-   Provides the macro _T(…) and TEXT(…) for Unicode/ANSI string encoding handling.
+
+**wchar.h**
+
+-   Wide Character - UTF16 or wchar
+
+
+**global.h
+ntfsb.h
+Winsock2.h**
+- Network sockets
+
+**Winbase.h**
+
+-   Windows types definitions
+
+**WinUser.h**
+
+-   Windows Messages
+
+**ShellAPI.h**
+
+-   Shell API
+
+**ShFolder.h**
+
+-   Folder definitions
+
+**Commdlg.h**
+
+-   Commom Controls (COM based)
+
+
+**Dlgs.h**
+
+-   Dialog definitions
+
+
+**IUnknown.h**
+
+-   COM header
+
+**conio.h**
+
+-   Console Input/Output functions - it is heritage grom MSDOS.
