@@ -19,7 +19,7 @@ Windows API ก็คือ พวก low-level function ต่างๆขอ�
 - [wxWidgets](https://en.wikipedia.org/wiki/WxWidgets) - Just a well known GUI library.
 - [Poco - Framework](https://pocoproject.org/docs/) - A collection of cross-platform libraries for network: HTTP protocol, FTP, ICMP; database access - SQLite, MySQL, ODBC and MongoDB; Standardized human-readable data exchange formats - JSON and XML; Zip compression; SSL and crypto utils.
 
-
+___
 ### Idiosincrasies (ลักษณะเฉพาะตัวของ Win32 api)
 - Win32 api จะใช้  Hungarian Notation
 - จะมีลักษณะเป็น Non standard types มี type ต่างๆได้แก่
@@ -36,7 +36,7 @@ Windows API ก็คือ พวก low-level function ต่างๆขอ�
 - มี C-runtimes และ entry points ที่ต่างกันหลายตัว
 - Function ของ Windows api นั้น มี parameter เยอะมาก บางทีจะ สับสนได้ วิธีเดียวที่จะรู้ว่ามันทำงานยังไงคือต้องลอง compile แล้วดู
 - บาง Function ไม่มีแม้แต่ document -.-4
-
+___
 ### Windows API Main Header Files
 header ที่ต้องเรียกใช้เมื่อต้องการ call Windows api
 -   #include <windows.h>
@@ -44,7 +44,7 @@ header ที่ต้องเรียกใช้เมื่อต้อง�
 -   #include <tchar.h>
 -   #include <global.h>
 -   #include <nsfbd.h>
-
+___
 ***Details (รายละเอียดอื่นๆ)***
 
 **windows.h**
@@ -101,6 +101,9 @@ Winsock2.h**
 **conio.h**
 
 -   Console Input/Output functions - it is heritage grom MSDOS.
+
+
+___
 
 ### Windows API Runtime Libraries
 
