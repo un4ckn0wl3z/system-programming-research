@@ -145,6 +145,8 @@ ___
 ### Windows Object Code Binary Format and Scripting Languages
 ไฟล์รูปแบบต่างๆ บน Windows
 
+#### Native Code
+
 | Extension | Executable Binary Format |Description
 | ------ | ----------- |-----
 | .exe | PE32 or PE64 | Windows Executable
@@ -156,12 +158,32 @@ ___
 | .ocx | PE32 or PE64 | Active Control X (DLL)
 
 
+#### Special Files
+
+| Extension | Executable Binary Format |Description
+| ------ | ----------- |-----
+| [Ntoskrnl.exe](https://en.wikipedia.org/wiki/Ntoskrnl.exe) | PE32 or PE64 | Windows-NT Kernel image
+| [hall.dll](https://en.wikipedia.org/wiki/Microsoft_Windows_library_files#Hal.dll) | PE32 or PE64 | Hardware Abstraction Layer (HAL)
 
 
+#### Compilation Binary Files
+
+| Extension | Executable Binary Format |Description
+| ------ | ----------- |-----
+| .obj | - | Object file -> Input to linker before building an executable.
+| .pdb | - | Program Debug Database => Contains executable or DLL debugging symbols.
+| .lib | - | Oject File Library or import library
+| .exp | - | Exports Library File
+| .RES | - | Compiled resource script
 
 
+#### Source and Project Files
 
-
+| Extension | Executable Binary Format |Description
+| ------ | ----------- |-----
+| .def | - | Export Definition File
+| .sln | - | Visual Studio Solution (Project file).
+| .rs | - | Resource script - for embedding files into the executable.
 
 
 
