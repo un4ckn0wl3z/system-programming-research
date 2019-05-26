@@ -141,5 +141,30 @@ ___
 **Wininet.dll**
 
 -   Provides high level network APIs, for instance, HttpOpenRequest, FtpGetFile …
+___
+### Windows Object Code Binary Format and Scripting Languages
+ไฟล์รูปแบบต่างๆ บน Windows
+
+| Extension | Executable Binary Format |Description
+| ------ | ----------- |-----
+| .exe | PE32 or PE64 | Windows Executable
+| .dll| PE32 or PE64 | Dynamic Linked Library - It can be Native PE32, PE64 or .NET/CLR DLL
+| .xll | PE32 or PE64 | Excel native Addin (extension or plugin). It is a dll with .xll extension.
+| .pyd | PE32 or PE64 | Python native module on Windows - DLL with .pyd extension instead of .dll.
+| .cpl | PE32 or PE64 | Control Panel Applet - Also a DLL with .cpl extension.
+| .sys | PE32 or PE64 | Windows device driver (akin to Linux kernel modules)
+| .ocx | PE32 or PE64 | Active Control X (DLL)
+
+
+
+
+
+
+
+
+
+
+
+
 
 
