@@ -186,7 +186,8 @@ ___
 | .rs | - | Resource script - for embedding files into the executable.
 
 ---
-**Scripting Languages Files:**
+#### Scripting Languages Files
+
 | File Extension | Interpreter | Advantage | Description
 | ------ | ----------- |-----|---
 |.bat|cmd.exe|Simplicity|Batch Script - Legacy technology from MSDOS, but still useful for small automation.
@@ -195,3 +196,4 @@ ___
 |.wcf |- |-|Windows Script File - Allows using many script engines iside the same file.
 |.ps1 .psm1 .ps1xml |Powershell |COM + OOP + .NET + Interactive |Powershell Script
 |.reg |regedit.exe| - |Windows registry script. Modify Windows registry when executed.
+
