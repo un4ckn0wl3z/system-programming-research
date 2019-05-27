@@ -24,7 +24,7 @@ ___
 - Win32 api จะใช้  Hungarian Notation
 - จะมีลักษณะเป็น Non standard types มี type ต่างๆได้แก่
   - LPSTRING, WORD, DWORD, BOOL, LPVOID …
-- Paths: จะมีความต่างกับ os ตระกูล *nix ที่ path นั้น จะเป็น (/) forward slash แต่ windows api path จะเขียนด้วย backward slash (\) ต้องทำการ escaped ก่อนนำไปใช้ เช่น จาก "C:\Users\sombody\file.exe" ไปเป็น "C:\\\Users\\\sombody\\\file.exe".
+- Paths: จะมีความต่างกับ os ตระกูล *nix ที่ path นั้น จะเป็น (/) forward slash แต่ windows api path จะเขียนด้วย backward slash (\\) ต้องทำการ escaped ก่อนนำไปใช้ เช่น จาก "C:\Users\sombody\file.exe" ไปเป็น "C:\\\Users\\\sombody\\\file.exe".
 - มีการใช้ Calling Convention หลายแบบเช่น 
   - **__stdcall**
   - **__cdecl**
