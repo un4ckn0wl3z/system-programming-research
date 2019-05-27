@@ -35,7 +35,7 @@ ___
 - string จะมี type แยกย่อยเยอะมากๆ
 - มี C-runtimes และ entry points ที่ต่างกันหลายตัว
 - Function ของ Windows api นั้น มี parameter เยอะมาก บางทีจะ สับสนได้ วิธีเดียวที่จะรู้ว่ามันทำงานยังไงคือต้องลอง compile แล้วดู
-- บาง Function ไม่มีแม้แต่ document -.-4
+- บาง Function ไม่มีแม้แต่ document -.-
 ___
 ### Windows API Main Header Files
 header ที่ต้องเรียกใช้เมื่อต้องการ call Windows api
